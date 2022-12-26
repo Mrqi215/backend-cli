@@ -1,4 +1,4 @@
-package me.zhengjie.utils;
+package com.software.utils;
 
 import org.junit.jupiter.api.Test;
 

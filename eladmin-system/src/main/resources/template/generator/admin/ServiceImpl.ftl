@@ -1,5 +1,5 @@
 /*
-*  Copyright 2019-2020 Zheng Jie
+*  Copyright 2019-2020 Init
 *
 *  Licensed under the Apache License, Version 2.0 (the "License");
 *  you may not use this file except in compliance with the License.
@@ -20,13 +20,13 @@ import ${package}.domain.${className};
     <#list columns as column>
         <#if column.columnKey = 'UNI'>
             <#if column_index = 1>
-import me.zhengjie.exception.EntityExistException;
+import com.software.exception.EntityExistException;
             </#if>
         </#if>
     </#list>
 </#if>
-import me.zhengjie.utils.ValidationUtil;
-import me.zhengjie.utils.FileUtil;
+import com.software.utils.ValidationUtil;
+import com.software.utils.FileUtil;
 import lombok.RequiredArgsConstructor;
 import ${package}.repository.${className}Repository;
 import ${package}.service.${className}Service;
@@ -44,8 +44,8 @@ import cn.hutool.core.util.IdUtil;
 </#if>
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import me.zhengjie.utils.PageUtil;
-import me.zhengjie.utils.QueryHelp;
+import com.software.utils.PageUtil;
+import com.software.utils.QueryHelp;
 import java.util.List;
 import java.util.Map;
 import java.io.IOException;
