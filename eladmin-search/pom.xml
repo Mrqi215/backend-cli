@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>eladmin-search</artifactId>
-    <name>搜索</name>
+    <name>搜索模块</name>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>

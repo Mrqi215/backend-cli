@@ -33,17 +33,24 @@
         </dependency>
 
         <!-- tools 模块包含了 common 和 logging 模块 -->
+
         <dependency>
             <groupId>com.software</groupId>
             <artifactId>eladmin-tools</artifactId>
             <version>2.6</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.software</groupId>
+            <artifactId>eladmin-search</artifactId>
+            <version>2.6</version>
+        </dependency>
+
         <!-- Spring boot websocket -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-websocket</artifactId>
-		</dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
 
         <!-- jwt -->
         <dependency>
