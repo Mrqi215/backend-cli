@@ -12,8 +12,7 @@
 
 #### kibana 8安装问题
 
-**问题：
-** [https://blog.csdn.net/qq_41985662/article/details/123647941](https://blog.csdn.net/qq_41985662/article/details/123647941)
+**问题：** [https://blog.csdn.net/qq_41985662/article/details/123647941](https://blog.csdn.net/qq_41985662/article/details/123647941)
 
 ### 系统简介
 
